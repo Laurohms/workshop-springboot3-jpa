@@ -12,6 +12,7 @@ import com.educandoweb.course.repositories.UserRepository;
 public class UserService {
     
     private UserRepository repository;
+    
     public UserService(UserRepository repository) {
         this.repository = repository;
     }
